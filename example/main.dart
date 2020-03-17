@@ -6,4 +6,5 @@ void main() {
       print('${i + 1}: name=${artists[i].name} id=${artists[i].id}');
     }
   });
+  MusicBrainz.searchRecording("Smells Like Teen Spirit");
 }
