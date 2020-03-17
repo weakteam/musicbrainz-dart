@@ -36,6 +36,6 @@ class MusicBrainz {
     for (var artist in array) {
       recordings.add(Recording.fromJson(artist));
     }
-    print(recordings);
+    return recordings;
   }
 }
